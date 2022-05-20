@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body, html {
     margin: 0px;
     padding: 0px;
@@ -8,6 +10,7 @@ body, html {
     display: flex;
     box-sizing: border-box;
     flex-flow: column nowrap;
+    font-family: "roboto";
 }
 
 .header {
@@ -16,24 +19,26 @@ body, html {
     height: fit-content;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 150px;
+    padding: 0px 80px;
     background-color: #1F2937;
 }
 
 .top {
-    padding: 50px 150px;
+    padding: 50px 80px;
     display: flex;
     background-color: #1F2937;
     flex-flow: row nowrap;
 }
 
 .topleft {
-    flex-flow: column wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 50%;
-    border: 1px solid;
 }
 
 .topright {
+    display: flex;
     width: 50%;
     height: auto;
     justify-content: center;
@@ -45,9 +50,19 @@ img {
 }
 
 .herotitle {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0px;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 5px 25px;
 }
 
 .headerlogo {
@@ -66,4 +81,15 @@ a, .herosubtext {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+}
+
+.middle {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.middletitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
