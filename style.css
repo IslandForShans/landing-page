@@ -86,7 +86,10 @@ a, .herosubtext {
 .middle {
     display: flex;
     flex-flow: row wrap;
+    padding: 0px 200px;
     justify-content: space-around;
+    gap: 5px;
+    margin: 25px;
 }
 
 .middletitle {
@@ -96,4 +99,31 @@ a, .herosubtext {
     font-weight: 900;
     width: 100vw;
     justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    flex-shrink: 0;
+}
+
+.card p{
+    display: flex;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bottom {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.bottom p {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1F2937;
 }
