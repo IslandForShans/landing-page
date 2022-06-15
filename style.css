@@ -10,7 +10,7 @@ body, html {
     display: flex;
     box-sizing: border-box;
     flex-flow: column nowrap;
-    font-family: "roboto";
+    font-family: "Roboto";
 }
 
 .header {
@@ -86,10 +86,14 @@ a, .herosubtext {
 .middle {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .middletitle {
+    display: flex;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    width: 100vw;
+    justify-content: center;
 }
