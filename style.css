@@ -133,3 +133,40 @@ a, .herosubtext {
     font-size: 24px;
     font-weight: bold;
 }
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1500px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 15px 100px;
+}
+
+.bluebox p {
+    color: #F9FAF8;
+}
+
+.bluebox p.bold {
+    font-weight: 900;
+}
+
+.bluebox button {
+    display: flex;
+    background: none;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 5px 25px;
+}
